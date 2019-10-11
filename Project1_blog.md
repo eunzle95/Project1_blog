@@ -1,11 +1,11 @@
-# Project1 blog
-===============
-## written by Sam Heo and Eunoh Cho
+Project1 blog
+===
+written by Sam Heo and Eunoh Cho
 ---
 
 >Programming languages and what we used?
 
-    >Programming languages are language tools to communicate with computer. 
+    > Programming languages are language tools to communicate with computer. 
      Programming languages allow computers to process complex commands.
      For exmaple if computer is given a large amount of data and a person codes way of parsing it and pass it to the computer, it will automatically understand the language and parse the data. 
      Each language has it's own unique features, teh examples can be C, JAVA, Python and etc. 
@@ -14,12 +14,12 @@
 
 >>Requirements for the Project1 and what we used or did
 
-    >swift coding
-        (swift image)
 
-        >Using swift coding was the requirement for project1 part1_A and B. 
+    swift coding
+
+        > Using swift coding was the requirement for project1 part1_A and B. 
         Through swift we created a method to change Roman numerals to Arabic numbers.
-        For part A, we set cases of combination fo Roman numerals such as M, CM, L, IX, and etc.
+        For part A, we set cases of combination fo Roman numerals such as M, CM, L, IX,and etc.
         we parse through the Roman numerals and find a matching string and add the value 
         according to the string.
         For part B, there are some restrictions in printing out the Arabic numbers. 
@@ -29,10 +29,10 @@
         In those cases we print out different output using emoticons. 
         In this part of the project, we learned way to learn the use of Unicode. 
 
-    >> python
-        (python image)
 
-        For project1 part2_A and B we tried to use java but decided to change the programming language to python.  
+    python
+
+        > For project1 part2_A and B we tried to use java but decided to change the programming language to python.  
         What we had to do for project1 part 2 were parsing a specific grammar and give out output by retaining and sorting the input written by specific grammar. 
         Using JAVA, we would have to go through every for loop to get the data and compare them and print out each error or output. 
         Yet, we figured out that usign python would be mroe time effective. 
@@ -48,15 +48,14 @@
         When the user request to buy or sell shares and call cancel, it will print out to cancel the request.
 
         >> new functions in python
-           split
-           not in
+            split
+            not in
 
 
-    >>>Markdown
-        (markdowm image)
-        !![Markdown logo](https://raw.github.com/dcurtis/markdown-mark/master/png/208x128.png)
 
-        >Before this project, we have never used the Markdown. We knew about it since in project every README file is in format of .md but we never really used it.  
+    Markdown
+
+        > Before this project, we have never used the Markdown. We knew about it since in project every README file is in format of .md but we never really used it.  
         By reading the documentation that was given and searching online, we have figured way out to write this blog in markdown language. 
         Markdown language as what we have understood, is created by John Gruber and Aaron Swartz. 
         They got inspired by email format to create markdown, instead of using html that contains various tags they invented markdown that translates the script to html.
