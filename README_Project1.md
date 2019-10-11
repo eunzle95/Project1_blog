@@ -1,0 +1,36 @@
+Project1 README
+===
+written by Sam Heo and Eunoh Cho
+---
+Specification of input for part 2
+> Part2 A
+    
+    (34 AAPL shares buy at max 780, 24 IBM shares sell at max 228) for account Hokie123
+
+    (34 AAPL shares buy at max 780, 24 GOOGL shares sell at min 228) for account Ho-kie123
+
+    (34 AAPL shares buy at max 780, 24 IN shares sell a min 228) for account Hokie123
+
+    (34 AAPL shares buy at                      max 780,1 IBM shares sell at min 228) for account Hokie123
+
+    (34 AAPL shares buy at min 780, 24 IBM shares sell at min 228) for account Hokie123
+
+    (34 AAPL shares buy at min 780) for account Hokie123
+
+    (34 AAPL shares buy at max 780, 24 IBM shares sell at min 228, 12 AAPL shares buy at max   27) for account Hokie123
+
+> Part2 B
+    
+    (AAPL shares cancel at request, IBM shares cancel at request) for account Hokie123
+
+    (34 AAPL shares buy at max 780, 10 GOOGL shares buy at max 780, 10 AAPL shares cancel at request 10) for account Hokie123
+
+
+>grammar for the part2 B
+
+    <stock_trade_requests> →  ‘(' <trade> {‘,’ <trade>} ‘) for account' <acct_ident>
+    <trade> → <number> <stock_symbol> ‘shares’ (‘buy at max' | ‘sell at min' | 'cancel at request') <number>
+    <number> →  [1-9] {[0-9]}
+    <stock_symbol> →
+    'AAPL'|'HP'|'IBM'|'AMZN'|'MSFT'|'GOOGL'|'INTC'|'CSCO'|'ORCL'|'QCOM'
+    <acct_ident> →  ‘“‘alpha_char { alpha_char | digit | ’_’} ‘“‘
