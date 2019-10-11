@@ -1,6 +1,6 @@
-Project1 blog
-===
-written by Sam Heo and Eunoh Cho
+# Project1 blog
+===============
+## written by Sam Heo and Eunoh Cho
 ---
 
 >Programming languages and what we used?
