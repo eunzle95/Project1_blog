@@ -5,23 +5,18 @@ written by Sam Heo and Eunoh Cho
 Specification of input for part 2
 > Part2 A
     
-    (34 AAPL shares buy at max 780, 24 IBM shares sell at max 228) for account Hokie123
+    (16 AAPL shares buy at max 600, 26 IBM shares sell at max 228) for account Hokie123
 
-    (34 AAPL shares buy at max 780, 24 GOOGL shares sell at min 228) for account Ho-kie123
+    (16 AAPL shares buy at max 604, 27 GOOGL shares sell at min 228) for account Ho-kie123
 
-    (34 AAPL shares buy at max 780, 24 IN shares sell a min 228) for account Hokie123
+    (17 AAPL shares buy at                      max 780,1 IBM shares sell at min 228) for account Hokie123
 
-    (34 AAPL shares buy at                      max 780,1 IBM shares sell at min 228) for account Hokie123
+    (181 AAPL shares buy at min 602, 29 IBM shares sell at min 228) for account Hokie123
 
-    (34 AAPL shares buy at min 780, 24 IBM shares sell at min 228) for account Hokie123
-
-    (34 AAPL shares buy at min 780) for account Hokie123
-
-    (34 AAPL shares buy at max 780, 24 IBM shares sell at min 228, 12 AAPL shares buy at max   27) for account Hokie123
 
 > Part2 B
     
-    (AAPL shares cancel at request, IBM shares cancel at request) for account Hokie123
+    (19 AAPL shares cancel at request 19, 20 IBM shares cancel at request 10) for account Hokie123
 
     (34 AAPL shares buy at max 780, 10 GOOGL shares buy at max 780, 10 AAPL shares cancel at request 10) for account Hokie123
 
